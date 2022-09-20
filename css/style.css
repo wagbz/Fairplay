@@ -1,0 +1,146 @@
+
+
+
+     @font-face {
+    font-family: 'abelregular';
+    src: url('../fonts/abel-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pinyon_scriptregular';
+    src: url('../fonts/pinyonscript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/pinyonscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'abelregular';
+    background:#000;
+    margin: 0 ;
+
+}
+main{
+    width: 850px;
+    margin: auto;
+}
+#siteheader{
+    background-image: url('../images/bgaa.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+
+}
+}
+.menusection{
+    position: relative;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+
+} 
+#logo > img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.menutitle{
+    background: url('../images/sgn.jpg');
+    background position: center center;
+    background-repeat: no repeat;
+    background-size: 50px;
+    background: yellow;
+    margin left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.form-control{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box ;
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid white;
+    color: white;
+
+}
+.btn{
+    padding: 12px 8px;
+    background: yellow;
+    color: black;
+    border-radius: 12px;
+    border-style: none;
+    width: 100%;
+    font-size: ;
+}
+select.form-control{
+    color: black;
+}
+textarea.form-control{
+    height: 250px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+#menusection{background: url('../images/spag.jpg');
+background-repeat: no-repeat;
+background-position: bottom right;
+background-size: 120px 120px;
+background-color: red;
+}
+
+#orderform{
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table{
+    width: 800px;
+    color: white;
+}
+
+.section-bg{
+    background: red;
+    padding: 50px;
+
+}
+h2{
+    text-align: center;
+
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.7);
+    height: 500px;
+
+}
+h1,h2,h3,h4,h5,h6{
+     font-family: 'pinyon_scriptregular';
+}
+ #ordersection{
+    background-image: url('../images/spag.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    
+ }
+ #ordersection> .overlay >h2{
+    color: #fff !important;
+    text-align: center;
+    font-family: 'abelregular'!important;
+ }
